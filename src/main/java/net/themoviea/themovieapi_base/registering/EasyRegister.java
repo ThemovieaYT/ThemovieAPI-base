@@ -1,4 +1,4 @@
-package net.themoviea.themovieapi.API.v1.registering;
+package net.themoviea.themovieapi_base.registering;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,7 +10,7 @@ import net.minecraft.item.Item;
 import net.minecraft.structure.StructurePieceType;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import net.themoviea.themovieapi.API.v1.exceptions.InputNotAnObjectException;
+import net.themoviea.themovieapi_base.exceptions.InputNotAnObjectException;
 
 /**
  * Class for registering Minecraft objects,

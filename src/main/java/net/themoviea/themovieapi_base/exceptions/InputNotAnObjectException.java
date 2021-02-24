@@ -1,4 +1,4 @@
-package net.themoviea.themovieapi.API.v1.exceptions;
+package net.themoviea.themovieapi_base.exceptions;
 
 /**
  * An exception when the input is not a specific type of object.
