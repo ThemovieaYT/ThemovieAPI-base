@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.themoviea.themovieapi.API.v1.testMixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "TitleScreenInjector"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
