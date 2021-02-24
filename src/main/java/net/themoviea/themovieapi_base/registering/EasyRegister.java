@@ -23,6 +23,10 @@ public class EasyRegister {
 	private static ArrayList<Object> mcItem = new ArrayList<>();
 	private static ArrayList<Object> mcEffect = new ArrayList<>();
 	private static ArrayList<Object> mcStructurePiece = new ArrayList<>();
+	
+	public static ArrayList<Object> getMcCustom() {
+		return mcCustom;
+	}
 
 	public static boolean createCustomRegisterList(Object... a) {
 		List<Object> list = Arrays.asList(a);
