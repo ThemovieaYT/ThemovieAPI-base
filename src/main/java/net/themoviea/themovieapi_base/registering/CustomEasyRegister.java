@@ -12,7 +12,7 @@ import net.themoviea.themovieapi_base.exceptions.InputNotAnObjectException;
 /**
  * Mainly an interface used for other APIs
  * to support EasyRegister so users can easily
- * register their own custom registries.
+ * register their own custom registers.
  * @author Themoviea
  *
  * @param <ObjectClass>
