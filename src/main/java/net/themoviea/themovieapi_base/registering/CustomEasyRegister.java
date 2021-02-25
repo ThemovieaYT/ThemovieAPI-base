@@ -20,12 +20,6 @@ import net.themoviea.themovieapi_base.exceptions.InputNotAnObjectException;
 public interface CustomEasyRegister<ObjectClass> {
 	
 	/**
-	 * Gets the object.
-	 * @return ObjectClass
-	 */
-	ObjectClass getObject();
-	
-	/**
 	 * Gets the ArrayList.
 	 * @return ArrayList<Object>
 	 */
@@ -47,7 +41,7 @@ public interface CustomEasyRegister<ObjectClass> {
 			System.out.println("(" + modid + ") No custom entries has been registered, as of there is nothing to register.");
 		} else {
 			for(int x = 0; x < getArrayList().size(); x = x + 2) {
-				if(getArrayList().get(x).equals(getObject())) {
+				if(getArrayList().get(x) instanceof Object) {
 					if(getArrayList().get(x+1) instanceof String) {
 						Registry.register(registry, new Identifier(modid, (String)getArrayList().get(x+1)), (ObjectClass)getArrayList().get(x));
 					} else
