@@ -3,7 +3,7 @@
   "minVersion": "0.8",
   "package": "net.themoviea.themovieapi.API.v1.testMixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [d
+  "mixins": [
   ],
   "client": [
   ],
