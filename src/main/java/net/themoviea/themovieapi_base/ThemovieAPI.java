@@ -7,5 +7,6 @@ public class ThemovieAPI implements ModInitializer
     
 	@Override
 	public void onInitialize() {
+		
 	}
 }
