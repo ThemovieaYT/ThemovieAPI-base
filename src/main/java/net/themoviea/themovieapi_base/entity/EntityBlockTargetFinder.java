@@ -3,7 +3,6 @@ package net.themoviea.themovieapi_base.entity;
 import java.util.concurrent.ThreadLocalRandom;
 
 import net.minecraft.block.Blocks;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
