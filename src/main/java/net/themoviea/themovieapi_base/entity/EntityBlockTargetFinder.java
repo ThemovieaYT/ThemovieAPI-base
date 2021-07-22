@@ -14,7 +14,7 @@ public class EntityBlockTargetFinder {
 	private MobEntity entity;
 	
 	public EntityBlockTargetFinder(MobEntity entity) {
-		this.entity = entity;
+		this.entity = entity; 
 	}
 	
 	public void setIsMovable(boolean isMovable) {
